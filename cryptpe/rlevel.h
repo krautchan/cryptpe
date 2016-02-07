@@ -1,6 +1,6 @@
 /*
  * cryptpe -- Encryption tool for PE binaries
- * (C) 2012 Martin Wolters
+ * (C) 2012-2016 Martin Wolters
  *
  * This program is free software. It comes without any warranty, to
  * the extent permitted by applicable law. You can redistribute it
@@ -9,11 +9,9 @@
  * http://sam.zoy.org/wtfpl/COPYING for more details.
  */
 
-#ifndef TYPES_H_
-#define TYPES_H_
+#ifndef RLEVEL_H_
+#define RLEVEL_H_
 
-typedef unsigned char uchar;
-typedef unsigned int uint;
-typedef unsigned short ushort;
+int detrlvl(void);
 
 #endif
